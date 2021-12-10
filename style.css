@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+
+
+
+.navbar{
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-item li a:hover{
+    background-color: #8136a3;
+    z-index: 999;
+}
+
+.banner{
+    padding-top: 8%;
+}
+
+.container-fluid{
+
+    padding: 0;
+
+}
+
+.img-fluid {
+    width: 100%;
+  
+
+   
+}
+
+#imgs img{
+    padding-top: 10%;
+    margin-left: 3%;
+
+}
+
+#imgs img{
+    width: 70%;
+    height: 20%;
+   
+}
+
+h1{
+    font-style: oblique;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    margin-left: 10%;
+}
+
+
+.lcm img{
+    margin-top: 5%;
+    width: 100%;
+    
+}
+
+.acesso a{
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.acesso ul li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;  
+    margin-left: 2%;   
+    position: relative;
+    transform: translateY(-130%); 
+}
+
+#imgs{
+    padding-top: 0;
+    margin-left: 12%;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+
+}
+
+.carousel{
+    padding: 0;
+    padding-top: 5%;
+}
+
+
+.icon{
+    width: "10px";
+}
+
+#footer{
+    width: 100%;
+    position: absolute;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+#transition{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  padding-top: 10%;
+  
+}
+
+
+#info{
+    padding-bottom: 2%;
+}
+
+
+/*PAGINA ACESSÓRIOS-BOOTSTRAP*/
+
+
+#lista{
+   
+    width: 100%;
+}
+
+#lista ul{
+    list-style-type: none;
+    font-size: 20px;
+  
+   padding: 0;
+
+}
+
+ 
+
+#prod img{
+    
+    width: 100%;
+}
+
+@media (max-width: 990px)
+{
+  #lista ul
+   {
+    visibility: hidden;
+    display: none;
+   }
+}
+ 
+
+
+
+.card :hover{
+    cursor: pointer;
+    background-color: rgb(138, 39, 196);
+}
+
+
